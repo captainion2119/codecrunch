@@ -1,0 +1,70 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+body {
+  overflow-x: hidden;
+}
+.download-btn {
+  background: #e3f2fd;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 6px;
+  align-items: center;
+  white-space: nowrap;
+  background: #4a98f7;
+  transition: all 0.2s ease;
+}
+.download-btn:hover {
+  background: #2382f6;
+}
+.download-btn.timer {
+  color: #000;
+  background: none;
+  transition: none;
+  font-size: 1.6rem;
+  pointer-events: none;
+}
+.download-btn.timer b {
+  color: #4a98f7;
+  padding: 0 8px;
+}
+.download-btn .icon {
+  font-size: 2rem;
+}
+.download-btn .text {
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .download-btn {
+    background: #e3f2fd;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    padding: 14px 20px;
+    border-radius: 6px;
+    align-items: center;
+    white-space: nowrap;
+    background: #4a98f7;
+    transition: all 0.2s ease;
+  }
+  .download-btn .icon {
+    font-size: 0.1rem;
+  }
+  .download-btn .text {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+
+  .download-btn.timer {
+    font-size: 0.8rem;
+  }
+}
