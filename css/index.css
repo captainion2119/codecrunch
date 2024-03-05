@@ -178,6 +178,7 @@ h1 {
 p {
   position: relative;
   margin-top: 20px;
+  margin-left: 100px;
   margin-bottom: 10px;
 }
 .details1 p {
@@ -214,10 +215,12 @@ p {
     background: rgb(153, 129, 129);
   }
 
-.contains p,ul {
+.contains p{
   text-align:justify;
-  margin-left:100px;
-  margin-right:100px;
+  margin-right:100px; 
+}
+.contains ul {
+  margin-right:none;
 }
 .contains h3 {
   text-align: center;
@@ -260,12 +263,30 @@ p {
   .details1 > h3 {
     font-weight: 100;
   }
+  .details1 h3,p {
+  position: relative;
+  margin-top: 20px;
+  margin-left: none;
+  margin-bottom: 10px;
+  }
+  
 
+  .contains p {
+    text-align:justify;
+    margin-right:none;
+  }
+  .contains ul {
+    margin-right:100px;
+  }
   .layer h4 {
     position: relative;
     top: 4px;
     left: 30px;
     font-size: 14px;
+  }
+  .auto-container li {
+    text-align: center;
+    margin-left:100px;
   }
 
   .layer img {
@@ -324,7 +345,7 @@ p {
   nav ul {
     position: fixed;
     top: 80px;
-    left: -100%;
+    left: -300%;
     background: #111;
     height: 100vh;
     width: 100%;

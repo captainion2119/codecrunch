@@ -86,7 +86,7 @@ footer {
 .right form .text {
   font-size: 1.0625rem;
   margin-bottom: 2px;
-  color: #656565;
+  color: white;
 }
 .right form .msg {
   margin-top: 10px;
@@ -95,6 +95,7 @@ footer {
 .right form textarea {
   width: 100%;
   font-size: 1.0625rem;
+  color: white;
   background: #151515;
   padding-left: 10px;
   border: 1px solid #222222;
@@ -111,7 +112,7 @@ footer {
 }
 .right form .btn button {
   height: 40px;
-  width: 100%;
+  width: 300px;
   border: none;
   outline: none;
   background: #f12020;
@@ -140,7 +141,8 @@ footer {
 }
 @media screen and (max-width: 900px) {
   .right form .btn button {
-    width: 100%;
+    
+    width: 300px;
   }
   footer {
     position: relative;

@@ -172,14 +172,18 @@ header .logo {
   display: block;
   margin: 0 auto;
 }
-.contains {
-  margin-right: 7.5%;
-  margin-left: 7.5%;
+.contains1 {
+  margin-right: 6.5%;
+  margin-left: 6.5%;
   margin-top: 5%;
   width: 85%;
   height: auto;
   border-color: brown;
 }
+.contains1 h2,h3,ul{
+  text-align: center;
+}
+
 strong {
   position: relative;
 }
@@ -538,12 +542,16 @@ footer {
   font-size: 14px;
 }
 @media (max-width: 430px) {
-  .contains {
+  .contains1 {
     margin-left: 9%;
     width: 82%;
     margin-right: 5% !important;
     text-align: justify;
     height: auto;
+  }
+  .details1 p {
+    margin-left:10px;
+    margin-right:10px;
   }
   /* .wrapper {
     position: absolute;
@@ -557,10 +565,13 @@ footer {
   .contact {
     display: table-row;
   }
-
-  .size {
-    height: 348vh !important;
+  .contains1 p{
+    margin-left: 10px;
   }
+  .contains1 ul{
+    margin-right: 100px;
+  }
+
 
   .footer-distributed {
     font: bold 14px sans-serif;

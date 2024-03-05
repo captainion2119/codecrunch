@@ -544,10 +544,6 @@ h3 {
     display: table-row;
   }
 
-  .size {
-    height: 730vh !important;
-  }
-
   .footer-distributed {
     font: bold 14px sans-serif;
   }
