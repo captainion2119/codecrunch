@@ -14,6 +14,9 @@ footer {
   flex-basis: 50%;
   padding: 24px 20px;
 }
+.main-content .content p {
+  margin-left:0px;
+}
 .box h2 {
   font-size: 1.125rem;
   font-weight: 600;
