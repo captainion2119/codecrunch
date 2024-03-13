@@ -8,6 +8,8 @@
 body {
   padding-top: 80px;
   overflow-x: hidden;
+  /*orange to yellow gradient*/
+  background: linear-gradient(90deg, #f12020, #fecd05);
 }
 .slider img {
   width: 100%;
@@ -185,19 +187,25 @@ p {
   margin-top: 4px;
   margin-left: 0px;
 }
-.contains h2 {
-  text-align: center;  
+.contains h1 {
+  text-align: left;  
   margin-top: 20px;
   margin-left:100px;
   margin-right: 100px;
 }
-
+.contains h2 {
+  text-align: left;  
+  margin-top: 20px;
+  margin-left:100px;
+  margin-right: 100px;
+}
 .btn {
   margin:auto;
   
   display: flex;
   justify-content: center;
 }
+
 .btn button {
   align-items: center;
   height: 40px;
@@ -217,13 +225,21 @@ p {
 
 .contains p{
   text-align:justify;
-  margin-right:100px; 
+  margin-right:100px;
+  font-size:x-large; 
 }
 .contains ul {
-  margin-right:none;
+  margin-left:100px;
 }
 .contains h3 {
-  text-align: center;
+  text-align: left;
+}
+
+.bullets {
+  text-align:left;
+  margin-left:100px;
+  margin-right:100px;
+  background-color: white;
 }
 .contact-details h1 {
   margin-top: 20px !important;
